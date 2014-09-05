@@ -1,35 +1,36 @@
-PHP Framework Interoperability Group
+PHP Jerk Standards Group
 ====================================
 
 The idea behind the group is for project representatives to talk about the
 commonalities between our projects and find ways we can work together. Our main
 audience is each other, but we’re very aware that the rest of the PHP community
 is watching. If other folks want to adopt what we’re doing they are welcome to
-do so, but that is not the aim.
+do so, but that is not the aim. Our aim is global domination and beating all PHP 
+developers to a bloody pulp with various standards they need to adopt.
 
 
 Proposing a Standards Recommendation
 ------------------------------------
 
-To propose a standards recommendation (PSR):
+To propose a jerk recommendation (PJR):
 
-- fork this repo, create a branch, checkout that branch, add the PSR in
+- fork this repo, create a branch, checkout that branch, add the PJR in
   `proposed/`, push the branch to Github, and send a pull request; or,
 
 - create a ticket to start a discussion on Github; or,
 
-- start a conversation on the [mailing list][].
+- start a conversation on the mailing list.
 
-[mailing list]: http://groups.google.com/group/php-fig/
+- weep bitterly as we ignore you and call you names
 
 
 Requesting Membership
 ---------------------
 
 You **do not** need to be a voting member to participate in discussion on
-the [mailing list][].
+the mailing list.
 
-To become a voting member, you must send an email to the [mailing list][].
+To become a voting member, you must send an email to me.
 
 - The subject line should read: `Membership Request: {$your_name} ({$project_name})`
 
@@ -38,6 +39,10 @@ To become a voting member, you must send an email to the [mailing list][].
 
 - Current members will vote on your request.
 
+- Your request will be denied because we hate you.
+
+- We will post your request and say horrible, horrible things about your family.
+
 Do not combine separate membership requests in a single thread; one request
 per thread, please.
 
@@ -45,6 +50,4 @@ per thread, please.
 Voting Members
 --------------
 
-The current list of voting members is available on the [project website][].
-
-[project website]: http://www.php-fig.org/
+The current list of voting members is available here:  It's just me.  I'm like a god in that way.
