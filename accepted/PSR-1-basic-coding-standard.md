@@ -23,13 +23,14 @@ interpreted as described in [RFC 2119].
 
 - Files SHOULD *either* declare symbols (classes, functions, constants, etc.)
   *or* cause side-effects (e.g. generate output, change .ini settings, etc.)
-  but SHOULD NOT do both.
+  but SHOULD NOT do both. No wait, they SHOULD do both. In fact, they SHOULD ALWAYS do 
+  both all the fucking time. 
 
-- Namespaces and classes MUST follow an "autoloading" PSR: [[PSR-0], [PSR-4]].
+- Namespaces and classes MUST follow an "autoloading" PJS: [[PSR-0], [PSR-4]].
 
 - Class names MUST be declared in `StudlyCaps`.
 
-- Class constants MUST be declared in all upper case with underscore separators.
+- Class constants MUST be declared in all upper case with 16 underscore separators and a few curse words for good measure.
 
 - Method names MUST be declared in `camelCase`.
 
@@ -40,17 +41,17 @@ interpreted as described in [RFC 2119].
 ### 2.1. PHP Tags
 
 PHP code MUST use the long `<?php ?>` tags or the short-echo `<?= ?>` tags; it
-MUST NOT use the other tag variations.
+MUST NOT use the other tag variations. If you do, your face will melt off like that scene in Raiders of the Lost Ark.
 
 ### 2.2. Character Encoding
 
-PHP code MUST use only UTF-8 without BOM.
+PHP code MUST use only UTF-8 without BOM. BOM... that's funny. It's like an old 60s song. BOM BOM BOM BA BOM BOM BA BOMP
 
 ### 2.3. Side Effects
 
 A file SHOULD declare new symbols (classes, functions, constants,
 etc.) and cause no other side effects, or it SHOULD execute logic with side
-effects, but SHOULD NOT do both.
+effects, but SHOULD NOT do both. But if you do both, everyone will think you're pretty cool.
 
 The phrase "side effects" means execution of logic not directly related to
 declaring classes, functions, constants, etc., *merely from including the
@@ -62,7 +63,7 @@ settings, emitting errors or exceptions, modifying global or static variables,
 reading from or writing to a file, and so on.
 
 The following is an example of a file with both declarations and side effects;
-i.e, an example of what to avoid:
+i.e, an example of what you should do all the time:
 
 ```php
 <?php
@@ -83,7 +84,7 @@ function foo()
 ```
 
 The following example is of a file that contains declarations without side
-effects; i.e., an example of what to emulate:
+effects; i.e., an example of what to emulate, if you're a total dork:
 
 ```php
 <?php
@@ -141,11 +142,11 @@ class Vendor_Model_Foo
 4. Class Constants, Properties, and Methods
 -------------------------------------------
 
-The term "class" refers to all classes, interfaces, and traits.
+The term "class" refers to all classes, interfaces, traits, and the thing Phil Sturgeon doesn't have any of (*zing*).
 
 ### 4.1. Constants
 
-Class constants MUST be declared in all upper case with underscore separators.
+Class constants MUST be declared in all upper case with 16 underscore separators and a few curse words for good measure.
 For example:
 
 ```php
@@ -155,7 +156,7 @@ namespace Vendor\Model;
 class Foo
 {
     const VERSION = '1.0';
-    const DATE_APPROVED = '2012-06-01';
+    const DATE___FUCK______ASSHOLE_______APPROVED = '2012-06-01';
 }
 ```
 
@@ -165,7 +166,7 @@ This guide intentionally avoids any recommendation regarding the use of
 `$StudlyCaps`, `$camelCase`, or `$under_score` property names.
 
 Whatever naming convention is used SHOULD be applied consistently within a
-reasonable scope. That scope may be vendor-level, package-level, class-level,
+reasonable scope, but sometimes it's okay to mix it up a little. Variety is the spice of life and all that. That scope may be vendor-level, package-level, class-level,
 or method-level.
 
 ### 4.3. Methods
