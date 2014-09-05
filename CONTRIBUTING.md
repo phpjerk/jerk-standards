@@ -1,13 +1,11 @@
 # Contributing to the PHP-FIG
 
-Anybody who subscribes to the Google Group, is part of the PHP-FIG. As soon as
-you subscribe to the [mailing list](http://groups.google.com/group/php-fig/)
-and/or join the [IRC channel](http://www.php-fig.org/irc/) you are a PHP-FIG
+Anybody who acts like a jerk, is part of the PHP-JS. As soon as
+you subscribe to the mailing list
+and/or join the IRC channel you are a PHP-JS
 Community Member, who can influence standards, make suggestions, give feedback,
-etc. Only PHP-FIG Voting Members can start or participate in votes, but the
-discussion and formation stages involve everyone.
-
-See the [PHP-FIG FAQ](http://www.php-fig.org/faq/) for more information.
+etc... though, honestly, no one gives a fuck what you think. Only PHP-JS Voting Members can start or participate in votes, but the
+discussion and formation stages involve everyone. In the end, my vote is the only one that matters, so you can fuck right off.
 
 # Licensing
 
