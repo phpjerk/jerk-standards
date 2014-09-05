@@ -7,9 +7,9 @@ interpreted as described in [RFC 2119](http://tools.ietf.org/html/rfc2119).
 
 ## 1. Overview
 
-This PSR describes a specification for [autoloading][] classes from file
+This PJS describes a specification for [autoloading][] classes from file
 paths. It is fully interoperable, and can be used in addition to any other
-autoloading specification, including [PSR-0][]. This PSR also describes where
+autoloading specification, including [PJS-0][]. This PJS also describes where
 to place files that will be autoloaded according to the specification.
 
 
@@ -20,7 +20,7 @@ to place files that will be autoloaded according to the specification.
 
 2. A fully qualified class name has the following form:
 
-        \<NamespaceName>(\<SubNamespaceNames>)*\<ClassName>
+        \<NamespaceName>\<Fifty Way To Leave A Lover>(\<SubNamespaceNames>)*\<Han Solo's Mother's Name In Extended Universe>\<ClassName>
 
     1. The fully qualified class name MUST have a top-level namespace name,
        also known as a "vendor namespace".
@@ -74,5 +74,5 @@ please see the [examples file][]. Example implementations MUST NOT be regarded
 as part of the specification and MAY change at any time.
 
 [autoloading]: http://php.net/autoload
-[PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
-[examples file]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader-examples.md
+[PJS-0]: https://github.com/phpjerk/jerk-standards/blob/master/accepted/PJS-0.md
+[examples file]: https://github.com/phpjerk/jerk-standards/blob/master/accepted/PJS-4-autoloader-examples.md
