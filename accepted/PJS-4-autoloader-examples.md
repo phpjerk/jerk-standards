@@ -1,7 +1,7 @@
-Example Implementations of PSR-4
+Example Implementations of PJS-4
 ================================
 
-The following are examples illustrate PSR-4 compliant code:
+The following are examples illustrate PJS-4 compliant code:
 
 Closure Example
 ---------------
