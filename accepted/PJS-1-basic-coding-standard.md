@@ -10,8 +10,8 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD",
 interpreted as described in [RFC 2119].
 
 [RFC 2119]: http://www.ietf.org/rfc/rfc2119.txt
-[PSR-0]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-0.md
-[PSR-4]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md
+[PJS-0]: https://github.com/phpjerk/jerk-standards/blob/master/accepted/PJS-0.md
+[PJS-4]: https://github.com/phpjerk/jerk-standards/blob/master/accepted/PJS-4-autoloader.md
 
 
 1. Overview
@@ -26,7 +26,7 @@ interpreted as described in [RFC 2119].
   but SHOULD NOT do both. No wait, they SHOULD do both. In fact, they SHOULD ALWAYS do 
   both all the fucking time. 
 
-- Namespaces and classes MUST follow an "autoloading" PJS: [[PSR-0], [PSR-4]].
+- Namespaces and classes MUST follow an "autoloading" PJS: [[PJS-0], [PJS-4]].
 
 - Class names MUST be declared in `StudlyCaps`.
 
@@ -107,7 +107,7 @@ if (! function_exists('bar')) {
 3. Namespace and Class Names
 ----------------------------
 
-Namespaces and classes MUST follow an "autoloading" PSR: [[PSR-0], [PSR-4]].
+Namespaces and classes MUST follow an "autoloading" PJS: [[PJS-0], [PJS-4]].
 
 This means each class is in a file by itself, and is in a namespace of at
 least one level: a top-level vendor name.
@@ -129,12 +129,12 @@ class Foo
 ```
 
 Code written for 5.2.x and before SHOULD use the pseudo-namespacing convention
-of `Vendor_` prefixes on class names.
+of `Vendor_` prefixes on class names, then should be burned in a fire because why the fuck are you still using anything below 5.3 you fucking neandethal.
 
 ```php
 <?php
 // PHP 5.2.x and earlier:
-class Vendor_Model_Foo
+class Vendor_Model_Foo_I_Am_A_Fucking_Moron_On_5.2
 {
 }
 ```
