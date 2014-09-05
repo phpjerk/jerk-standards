@@ -1,4 +1,4 @@
-# Contributing to the PHP-FIG
+# Contributing to the PHP-JS
 
 Anybody who acts like a jerk, is part of the PHP-JS. As soon as
 you subscribe to the mailing list
